@@ -1,0 +1,45 @@
+{
+  "version": 4,
+  "terraform_version": "1.5.4",
+  "serial": 1,
+  "lineage": "1d474f52-5fed-43ae-ed6c-4c5e7711c914",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_vpc",
+      "name": "fazle-vpc",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-1:430704357939:vpc/vpc-0dcb68b6b2f5bb0ba",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "192.169.0.0/16",
+            "default_network_acl_id": "acl-0a1886fe9b0aabfd8",
+            "default_route_table_id": "rtb-0b82c151b0fc23f6e",
+            "default_security_group_id": "sg-0e882f3c2ab97b3f7",
+            "dhcp_options_id": "dopt-0b9ceb20cd0988fd9",
+            "enable_classiclink": false,
+            "enable_classiclink_dns_support": false,
+            "enable_dns_hostnames": false,
+            "enable_dns_support": true,
+            "id": "vpc-0dcb68b6b2f5bb0ba",
+            "instance_tenancy": "default",
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "main_route_table_id": "rtb-0b82c151b0fc23f6e",
+            "owner_id": "430704357939",
+            "tags": {
+              "Name": "Fazle-vpc"
+            }
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

@@ -1,0 +1,1 @@
+subnet_az = "us-east-1f"
